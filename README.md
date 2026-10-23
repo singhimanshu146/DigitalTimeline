@@ -1,32 +1,59 @@
 # DigitalTimeline
 
-**AI-Powered Digital Activity Analysis**
+DigitalTimeline is a Java-based project that organizes activities into a chronological timeline.
 
-DigitalTimeline is a Java-based project designed to organize scattered digital activities—such as tasks, notes, projects, documents, and development activity—into one chronological, searchable timeline.
+## Current Features
 
-## Project Goals
+- Create activities with a title and description.
+- Automatically record the date and time of each activity.
+- Create task activities using Java inheritance.
+- Mark tasks as completed.
+- Store multiple activities using `ArrayList`.
+- Sort activities chronologically.
+- Display activities with formatted timestamps.
+- Count the total number of activities.
 
-- Organize digital activities in one place.
-- Display activities chronologically.
-- Search and filter activities.
-- Discover relationships between activities.
-- Gradually introduce AI-powered summaries, semantic search, and insights.
-
-## Technology Stack
+## Technologies Used
 
 - Java
+- Object-Oriented Programming (OOP)
+- Java Collections Framework
 - Git and GitHub
 
-**Planned technologies:** Spring Boot, PostgreSQL, Hibernate/JPA, React, Spring Security, Neo4j, AI/LLM, RAG, embeddings, and Docker.
+## Project Structure
 
-## Development Status
+```text
+DigitalTimeline/
+├── README.md
+├── .gitignore
+└── src/
+    ├── Main.java
+    ├── model/
+    │   ├── Activity.java
+    │   └── TaskActivity.java
+    └── service/
+        └── Timeline.java
+```
 
-Currently in the initial development stage. Features and technologies will be added incrementally as the project evolves.
+## How to Run
 
-## Getting Started
+Compile the source files from the project root:
 
-The initial version is being developed using Java. Instructions for compiling and running the application will be added as the project grows.
+```bash
+javac -d out src/Main.java src/model/Activity.java src/model/TaskActivity.java src/service/Timeline.java
+```
 
-## Author
+Run the application:
 
-BTech student project — developed as a learning and portfolio project.
+```bash
+java -cp out Main
+```
+
+## Planned Features
+
+- Search and filter activities.
+- Accept activity details through user input.
+- Save and load activities from a file.
+- Integrate a database and Spring Boot backend.
+- Build a React frontend.
+- Explore AI-powered search and insights.
