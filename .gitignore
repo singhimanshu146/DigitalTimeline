@@ -19,3 +19,8 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+
+# Runtime activity data
+activities.txt
+src/activities.txt

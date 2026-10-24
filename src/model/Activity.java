@@ -26,6 +26,10 @@ public class Activity {
         return timestamp;
     }
 
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
+    }
+
     public void display() {
         System.out.println("Title: " + title);
         System.out.println("Description: " + description);

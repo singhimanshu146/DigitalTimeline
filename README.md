@@ -12,6 +12,8 @@ DigitalTimeline is a Java-based project that organizes activities into a chronol
 - Sort activities chronologically.
 - Display activities with formatted timestamps.
 - Count the total number of activities.
+- Search activities by title (case-insensitive).
+- Filter tasks by completion status.    
 
 ## Technologies Used
 
